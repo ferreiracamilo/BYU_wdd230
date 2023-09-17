@@ -1,8 +1,31 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     nav ul {
 		display: flex;
 	}
 	nav ul li {
 		flex: 1 1 100%;
 	}
+
+    /************************************************************
+    *
+    *               Main
+    *
+    ************************************************************/
+
+    main{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 1em;
+    }
+
+    main h2{
+        grid-row: 1;
+        grid-column: 1/4;
+        border-bottom: 1px dotted var(--primary-color);
+        font: var(--heading-font);
+    }
+
+    
 }
