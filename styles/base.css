@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Ubuntu+Mono&display=swap');
+
+/************************************************************
+*
+*               Variables
+*
+************************************************************/
+:root {
+    /*colours based on https://coolors.co/palette/001524-15616d-ffecd1-ff7d00 */
+    /*colour palette*/
+    --primary-color: #001524;
+    --secondary-color: #15616d;
+    --accent1-color: #ffecd1;
+    --accent2-color: #ff7d00;
+
+    /*fonts imported and default generic ones to replace them if needed*/
+    --heading-font: "Josefin Sans", sans-serif;
+    --paragraph-font: "Ubuntu Mono", monospace;
+
+    --text-color-on-white: #15616d;  /* headlines on a white background */ 
+    --text-color-on-color: white; /* headlines on a colored background */ 
+}
+
+header{
+    background-color: var(--secondary-color);
+    font: var(--heading-font);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color-on-color);
+}
+
+header *{
+    padding: 2%;
+    margin: auto;
+}
+
+header img{
+    width: 100px;
+    filter: drop-shadow(0 0 0.09rem var(--accent1-color));
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+nav a{
+    width: 100%;
+    text-decoration: none;
+    font: var(--paragraph-font);
+    color: var(--text-color-on-color);
+    background-color: var(--primary-color);
+}
+
+nav a:hover{
+    background-color: var(--accent2-color);
+}
+
+h2{
+    text-decoration: underline;
+    font: var(--heading-font);
+}
