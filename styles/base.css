@@ -156,3 +156,11 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 }
+
+footer p{
+	margin: 10px;
+}
+
+#lastModified{
+	color: var(--accent2-color);
+}
