@@ -14,18 +14,9 @@
 
     main{
         margin-top: 30px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 1em;
+        width: 80%;
+        justify-content: center;
     }
 
-    main h2{
-        grid-row: 1;
-        grid-column: 1/4;
-        border-bottom: 1px dotted var(--primary-color);
-        font: var(--heading-font);
-    }
 
-    
 }
