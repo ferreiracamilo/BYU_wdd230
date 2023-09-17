@@ -56,6 +56,10 @@ header img{
     filter: drop-shadow(0 0 0.09rem var(--accent1-color));
 }
 
+header h1{
+	color: var(--text-color-on-color);
+}
+
 /************************************************************
 *
 *               Nav bar
@@ -163,4 +167,5 @@ footer p{
 
 #lastModified{
 	color: var(--accent2-color);
+	font-weight: 900;
 }
