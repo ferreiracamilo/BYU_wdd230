@@ -33,8 +33,7 @@
 	box-sizing: border-box;
 }
 
-header,
-main {
+header, main {
 	max-width: 767px;
 	margin: 0 auto;
 }
@@ -56,6 +55,12 @@ header img{
     width: 100px;
     filter: drop-shadow(0 0 0.09rem var(--accent1-color));
 }
+
+/************************************************************
+*
+*               Nav bar
+*
+************************************************************/
 
 nav {
 	background-color: var(--primary-color);
@@ -81,7 +86,18 @@ nav a:hover {
     background-color: var(--accent2-color);
 }
 
-h2{
+/************************************************************
+*
+*               Main
+*
+************************************************************/
+
+main{
+    
+}
+
+main h2{
     text-decoration: underline;
     font: var(--heading-font);
 }
+
