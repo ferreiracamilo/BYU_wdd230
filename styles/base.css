@@ -92,3 +92,41 @@ nav a:hover {
 *
 ************************************************************/
 
+main h2 {
+    border-bottom: 1px solid black;
+	white-space: nowrap;
+	justify-content: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+	padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h3{
+	background-color: var(--secondary-color);
+    display: block;
+    width: inherit;
+    text-align: center;
+    font-weight: bold;
+	color: var(--text-color-on-color);
+    line-height: 35px;
+}
+
+.card ul{
+	text-align: left;
+	list-style-type: none;
+	margin: 20px;
+}
+
+.card p{
+	text-align: center;
+}
