@@ -21,18 +21,35 @@
     --text-color-on-color: white; /* headlines on a colored background */ 
 }
 
-header{
-    background-color: var(--secondary-color);
-    font: var(--heading-font);
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    color: var(--text-color-on-color);
+/************************************************************
+*
+*               Header
+*
+************************************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header,
+main {
+	max-width: 767px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: var(--secondary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+    margin: auto;
 }
 
 header *{
-    padding: 2%;
-    margin: auto;
+    padding-inline: 5px; /*Enforce a slight separation between profile picture and h1*/
 }
 
 header img{
@@ -41,20 +58,26 @@ header img{
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+	background-color: var(--primary-color);
+	margin: 0 auto;
+	max-width: 800px;
 }
 
-nav a{
-    width: 100%;
-    text-decoration: none;
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
     font: var(--paragraph-font);
     color: var(--text-color-on-color);
-    background-color: var(--primary-color);
+	text-align: center;
+	padding: 1rem;
 }
 
-nav a:hover{
+nav a:hover {
+	border: 1px solid #fff;
     background-color: var(--accent2-color);
 }
 
