@@ -100,7 +100,7 @@ main h2 {
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
 	padding: 20px;
 }
@@ -127,6 +127,11 @@ main h2 {
 	margin: 20px;
 }
 
+.card li{
+	margin:0 0 8px 0;
+}
+
 .card p{
 	text-align: center;
+	margin: 20px;
 }
