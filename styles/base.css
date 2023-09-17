@@ -92,10 +92,15 @@ nav a:hover {
 *
 ************************************************************/
 
+main{
+	margin-top: 20px;
+}
+
 main h2 {
     border-bottom: 1px solid black;
 	white-space: nowrap;
 	justify-content: center;
+	margin-inline: 10px;
 }
 
 .card-grid {
@@ -134,4 +139,20 @@ main h2 {
 .card p{
 	text-align: center;
 	margin: 20px;
+}
+
+/************************************************************
+*
+*               Footer
+*
+************************************************************/
+
+/* Footer styles */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color-on-color);
+    padding: 20px 0;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
 }
