@@ -120,46 +120,30 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-.sitemap {
-  display: grid;
-  justify-content: center;
 
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
-}
-.sitemap > div {
+.homepage {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 200px;
   text-align: center;
 }
-.sm-home {
-  grid-area: home;
-  background-color: #ccc;
-  line-height: 3em;
+
+.horizontal-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  text-align: center;
 }
-.sm-page2 {
-  grid-area: page2;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
+
+.discover, .directory, .join {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
 }
