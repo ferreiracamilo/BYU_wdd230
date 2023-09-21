@@ -34,6 +34,7 @@ article p {
 .callout {
 	color: white;
 	background-color: #702963;
+    text-align: justify;
 }
 
 footer {
