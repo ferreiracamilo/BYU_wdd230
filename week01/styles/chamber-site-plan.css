@@ -69,9 +69,12 @@ p, ul {
   padding: 1em;
 }
 
-ul.center-list, ul.center-list li {
+/* Resetting default margin and padding for UL and LI */
+ul.center-list {
   margin: 0;
   padding: 0;
+  text-align: center; /* Center text within each LI */
+  list-style-position: inside; /* Place the bullet inside the li element */
 }
 
 /* Centering the UL and its content */
@@ -81,12 +84,9 @@ ul.center-list, ul.center-list li {
   align-items: center;
 }
 
-.center-list {
-  text-align: center; /* Center text within each LI */
-}
-
 .center-list li {
   margin: 10px; /* Add some spacing between list items */
+  display: list-item;
 }
 
 .colors {
