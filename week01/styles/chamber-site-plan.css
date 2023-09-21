@@ -63,11 +63,32 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
-p {
+p, ul {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
+
+ul.center-list, ul.center-list li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering the UL and its content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-list {
+  text-align: center; /* Center text within each LI */
+}
+
+.center-list li {
+  margin: 10px; /* Add some spacing between list items */
+}
+
 .colors {
   width: 100%;
   min-width: 350px;
