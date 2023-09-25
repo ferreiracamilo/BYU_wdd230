@@ -98,13 +98,11 @@ header h1{
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
 }
 
 .navigation li a:hover {
-	background-color: #bbb;
-	color: #333;
-	font-weight: 700;
+	background-color: var(--accent2-color);
+	font-weight: 700; /* strength the font to highlight the option hovered */
 }
 
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
