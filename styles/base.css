@@ -221,6 +221,6 @@ footer p{
 }
 
 #lastModified{
-	color: var(--accent2-color);
+	color: var(--text-color-on-color);
 	font-weight: 900;
 }
