@@ -117,20 +117,6 @@ header h1{
 	display: block;
 }
 
-/*** NAV RULES FOR BIG SIZE SCREEN ***/
-#menu {
-	display: none; /* hide hamburger button */
-}
-
-.navigation {
-	flex-direction: row;
-}
-
-.navigation li {
-	display: block;
-	flex: 1 1 100%;
-}
-
 /************************************************************
 *
 *               Nav bar
