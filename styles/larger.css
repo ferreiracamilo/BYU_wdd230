@@ -24,6 +24,21 @@
         margin-bottom: 20px;
     }
 
+    /*** NAV RULES FOR BIG SIZE SCREEN ***/
+    #menu {
+        display: none; /* hide hamburger button */
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    /*** CARD RULES FOR BIG SCREEN ***/
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
     }
