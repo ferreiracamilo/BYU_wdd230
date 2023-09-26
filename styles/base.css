@@ -299,7 +299,6 @@ main h2 {
 /* Footer styles */
 footer {
     background-color: var(--secondary-color);
-    color: var(--text-color-on-color);
     padding: 20px 0;
 	max-width: 1024px;
 	margin: 0 auto;
@@ -311,6 +310,5 @@ footer p{
 }
 
 #lastModified{
-	color: var(--text-color-on-color);
 	font-weight: 900;
 }
