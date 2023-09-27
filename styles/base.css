@@ -60,6 +60,7 @@ header {
 	justify-content: center;
 	padding: 30px;
     margin: auto;
+	position: relative; /* Make sure toggle button will be on left within header width */
 }
 
 /*** HEADER NOT NAV RULES ***/
@@ -137,8 +138,8 @@ header h1{
 
 .container-darkmode-toggle{
 	position: absolute;
-	top: 0.1rem;
-	left: 0.2rem;
+	top: 0.5rem;
+	left: 1%;
 }
 
 body {
