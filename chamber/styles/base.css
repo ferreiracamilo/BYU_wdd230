@@ -75,7 +75,6 @@ ul{
 li {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
-    padding: 0.4em;
     font-size: 1.4rem;
 }
 
@@ -279,6 +278,7 @@ nav a:hover {
 	border: 1px solid #fff;
     background-color: var(--accent2-color);
 }
+
 
 /************************************************************
 *
