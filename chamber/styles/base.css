@@ -79,3 +79,231 @@ li {
     font-size: 1.4rem;
 }
 
+/************************************************************
+*
+*               Header
+*
+************************************************************/
+
+/*** HAEADER GENERIC RULES -and some other elements as main-***/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header, main {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: var(--secondary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+    margin: auto;
+	position: relative; /* Make sure toggle button will be on left within header width */
+}
+
+/*** HEADER NOT NAV RULES ***/
+header :not(nav){
+    padding-inline: 5px; /*Enforce a slight separation between profile picture and h1*/
+}
+
+header img{
+    width: 100px;
+    filter: drop-shadow(0 0 0.09rem var(--accent1-color));
+}
+
+header h1{
+	color: var(--text-color-on-color);
+}
+
+/* small view navigation */
+#menu {
+	border: 1px solid rgba(0,0,0,.3);
+	padding: .25rem .75rem;
+	background-color: #eee;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	background-color: var(--accent2-color);
+	font-weight: 700; /* strength the font to highlight the option hovered */
+}
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+
+.open li a {
+	display: block;
+}
+
+/************************************************************
+*
+*               Dark Mode Transition
+*
+************************************************************/
+
+.container-darkmode-toggle{
+	position: absolute;
+	top: 0.5rem;
+	left: 1%;
+}
+
+body {
+    transition: background-color 0.9s ease;
+}
+
+.switch {
+	margin-top: 5px;
+    position: relative;
+    display: inline-table;
+    width: 40px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: grey;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: var(--accent2-color);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--accent2-color);
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/************************************************************
+*
+*               Nav bar
+*
+************************************************************/
+
+nav {
+	background-color: var(--primary-color);
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+    font: var(--paragraph-font);
+    color: var(--text-color-on-color);
+	text-align: center;
+	padding: 1rem;
+}
+
+nav a:hover {
+	border: 1px solid #fff;
+    background-color: var(--accent2-color);
+}
+
+/************************************************************
+*
+*               Footer
+*
+************************************************************/
+
+/* Footer styles */
+footer {
+    background-color: var(--secondary-color);
+    padding: 20px 0;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer p{
+	margin: 10px;
+}
+
+#lastModified{
+	font-weight: 900;
+}
+
+
+iframe{
+	width: 100%;
+}

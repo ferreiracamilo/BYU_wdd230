@@ -1,0 +1,37 @@
+/************************************************************
+*
+*               Nav
+*
+************************************************************/
+nav ul {
+    display: flex;
+}
+nav ul li {
+    flex: 1 1 100%;
+}
+
+/************************************************************
+*
+*               Main
+*
+************************************************************/
+
+main{
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*** NAV RULES FOR BIG SIZE SCREEN ***/
+#menu {
+    display: none; /* hide hamburger button */
+}
+
+.navigation {
+    flex-direction: row;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
