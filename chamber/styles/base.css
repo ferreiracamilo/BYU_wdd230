@@ -90,7 +90,7 @@ li {
 	box-sizing: border-box;
 }
 
-header, main {
+header, main, footer, nav {
 	max-width: 1024px;
 	margin: 0 auto;
 }
@@ -254,10 +254,8 @@ input:checked + .slider:before {
 *
 ************************************************************/
 
-nav {
+nav{
 	background-color: var(--primary-color);
-	margin: 0 auto;
-	max-width: 1024px;
 }
 
 nav ul {
@@ -289,7 +287,21 @@ nav a:hover {
 footer {
     background-color: var(--secondary-color);
     padding: 20px 0;
-	max-width: 1024px;
-	margin: 0 auto;
-	text-align: center;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#copyright{
+    grid-column: 0/1;
+}
+
+#internal-links{
+    grid-column: 2/3;
+}
+
+#social-media-links{
+    grid-column: 4/5;
+}
+
+#weather-component{
+    grid-column: 7/8;
 }
