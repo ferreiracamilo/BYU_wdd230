@@ -351,3 +351,8 @@ footer p{
 #lastModified{
 	font-weight: 900;
 }
+
+
+iframe{
+	width: 100%;
+}
