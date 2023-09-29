@@ -21,11 +21,6 @@
     --text-color-on-color: white; /* headlines on a colored background */ 
 }
 
-picture{
-	width: 4000px;
-	height: auto;
-}
-
 /************************************************************
 *
 *               Regular Text Color to override dark mode
