@@ -316,3 +316,10 @@ footer {
 #internal-links li{
     list-style: none;
 }
+
+
+footer {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
