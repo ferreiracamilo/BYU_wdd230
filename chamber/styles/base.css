@@ -291,25 +291,19 @@ nav a:hover {
 *
 ************************************************************/
 
-/* Footer styles */
+#copyright p{
+    font-size: 0.57em;
+}
+
+#internal-links li{
+    font-size: 1.17em;
+}
+
 footer {
     background-color: var(--secondary-color);
-    padding: 20px 0;
-    grid-template-columns: repeat(8, 1fr);
+    padding: 0.5px 0;
 }
 
-#copyright{
-    grid-column: 0/1;
-}
-
-#internal-links{
-    grid-column: 2/3;
-}
-
-#social-media-links{
-    grid-column: 4/5;
-}
-
-#weather-component{
-    grid-column: 7/8;
+#internal-links li{
+    list-style: none;
 }
