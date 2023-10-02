@@ -77,6 +77,14 @@ li {
     font-size: 1.4rem;
 }
 
+nav li a{
+    color: var(--paragraph-color-on-color);
+}
+
+footer section li a{
+    color: black;
+}
+
 /************************************************************
 *
 *               Header
