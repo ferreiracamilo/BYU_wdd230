@@ -90,6 +90,10 @@ footer section a:hover{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+header h1{
+    display: none;
+}
+
 /************************************************************
 *
 *               Header
