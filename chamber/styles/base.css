@@ -374,3 +374,45 @@ footer section{
 #social-media-links img{
     width: 40px;
 }
+
+/************************************************************
+*
+*               NEWSLETTER CALL TO ACTION
+*
+************************************************************/
+
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.overlay h2, p{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.popup {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Styles for the close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

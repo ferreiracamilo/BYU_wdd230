@@ -16,6 +16,20 @@
         <link rel="stylesheet" href="styles/larger.css">
     </head>
     <body>
+
+        <!-- Email Newsletter Signup Pop-up -->
+        <div class="overlay" id="popup-overlay">
+            <div class="popup">
+                <span class="close-btn" id="close-popup">X</span>
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay up-to-date with our latest news and offers!</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
         <header>
             <div class="container-darkmode-toggle">
                 <label class="switch" title="Dark Mode Toggle">
@@ -80,6 +94,8 @@
 
         <script src="scripts/hamburgerMenu.js"></script>
         <script src="scripts/darkMode.js"></script>
+        <script src="scripts/newsletter.js"></script>
+        
         
     </body>
 </html>
