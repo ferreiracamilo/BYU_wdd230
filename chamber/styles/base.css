@@ -363,5 +363,14 @@ footer {
 footer {
     background-color: var(--secondary-color);
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0.2fr);
+    gap: 1em;
+}
+
+footer section{
+    margin: auto;
+}
+
+#social-media-links img{
+    width: 40px;
 }
