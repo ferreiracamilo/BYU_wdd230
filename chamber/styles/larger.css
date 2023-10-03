@@ -98,4 +98,16 @@
     grid-row: 1;
     }
 
+    /************************************************************
+    *
+    *               HOME PAGE > COMPANY SPOTLIGHT SECTION
+    *
+    ************************************************************/
+
+    #company-spotlights{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
 }
