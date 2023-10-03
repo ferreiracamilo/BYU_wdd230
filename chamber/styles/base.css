@@ -320,10 +320,10 @@ nav a:hover {
 	position: absolute;
 	top: 30px;
 	left: 30px;
-	background: radial-gradient(#fff, #4D5B97);
+	background: radial-gradient(#fff, #D4AC0D);
 	border: 1px solid rgba(0,0,0,.75);
-	padding: 1.5rem;
-	box-shadow: 0 0 3rem #fff;
+	padding: 0.5rem;
+	box-shadow: 0 0 0.5rem white;
 	opacity: 0.75;
 }
 
@@ -333,6 +333,7 @@ nav a:hover {
 	font-weight: 700;
 	font-size: 1rem;
 	font-family:"Great Vibes", serif;
+    color: black;
 }
 
 
