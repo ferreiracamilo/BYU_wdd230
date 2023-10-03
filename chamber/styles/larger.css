@@ -48,6 +48,15 @@
     }
 
 
+    /* HEROLABEL TEXT SIZE */
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 2rem;
+        font-family:"Great Vibes", serif;
+    }
+
     /************************************************************
     *
     *               Footer
@@ -89,7 +98,4 @@
     grid-row: 1;
     }
 
-    #social-media-links img{
-    width: 40px;
-    }
 }
