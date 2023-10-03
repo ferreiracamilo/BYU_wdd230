@@ -416,3 +416,45 @@ footer section{
     right: 10px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS styles for the event section */
+#event-section {
+    text-align: center;
+}
+
+#event-description {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#event-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    max-width: 100%;
+    display: none;
+}
+
+.active-photo {
+    display: block;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+}
