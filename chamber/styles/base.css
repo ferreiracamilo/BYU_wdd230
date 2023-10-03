@@ -465,8 +465,11 @@ footer section{
     grid-template-rows: repeat(3, 1fr);
     gap: 1em;
     margin-bottom: 10px;
-    color: black;
     text-align: center;
+}
+
+#company-spotlights h3, p{
+    color: black;
 }
 
 #spotlight1{
