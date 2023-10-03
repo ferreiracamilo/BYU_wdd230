@@ -472,6 +472,10 @@ footer section{
     color: black;
 }
 
+#company-spotlights article{
+    padding: 20px;
+}
+
 #spotlight1{
     background-color: #E7C24F;
 }
