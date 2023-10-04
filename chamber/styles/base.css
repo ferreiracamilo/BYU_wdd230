@@ -526,3 +526,9 @@ footer section{
     border-radius: 150px 15px;
 }
 
+#discover-sidebar article{
+    display: block; /* Makes each image a block-level element */
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+}
+
