@@ -120,6 +120,7 @@
     #discover-container{
         display: grid;
         grid-template-rows: repeat(2, 0.5fr);
+        gap: 10px;
     }
 
     #discover-sidebar{
