@@ -94,6 +94,10 @@ header h1{
     display: none;
 }
 
+main{
+    padding-top: 10px;
+}
+
 /************************************************************
 *
 *               Header
@@ -304,7 +308,7 @@ nav a:hover {
 ************************************************************/
 
 .hero {
-	margin: 10px auto;
+	margin-bottom: 10px;
 	position: relative;
 	border: 1px solid rgba(0,0,0,.1);
 	height: 300px;
@@ -509,6 +513,12 @@ footer section{
 #discover-container{
     display: grid;
     grid-template-rows: repeat(1, 1fr);
+}
+
+#discover-images img{
+    width: 300px;
+    display: block; /* Makes each image a block-level element */
+    margin-bottom: 10px;
 }
 
 #discover-images img:hover{
