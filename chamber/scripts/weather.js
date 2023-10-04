@@ -65,6 +65,10 @@ function fetchWeather() {
       const ul = document.getElementById("weatherList");
   
       // Create list items for each piece of weather data and load them into the existing ul
+      const tempCityItem = document.createElement("li");
+      tempCityItem.textContent = `City: ${weatherData.city}`;
+      ul.appendChild(tempCityItem);
+
       const weatherDescriptionItem = document.createElement("li");
       weatherDescriptionItem.textContent = `Description: ${weatherData.description}`;
       ul.appendChild(weatherDescriptionItem);
@@ -82,11 +86,7 @@ function fetchWeather() {
       ul.appendChild(tempMinItem);
   
       const tempMaxItem = document.createElement("li");
-      tempMaxItem.textContent = `Max Temperature: ${weatherData.city} F`;
-      ul.appendChild(tempMaxItem);
-
-      const tempCity = document.createElement("li");
-      tempMaxItem.textContent = `City: ${weatherData.city}`;
+      tempMaxItem.textContent = `Max Temperature: ${weatherData.temp_max} F`;
       ul.appendChild(tempMaxItem);
   
       console.log("Weather Data:", weatherData);
