@@ -516,7 +516,7 @@ footer section{
 }
 
 #discover-images img{
-    width: 500px;
+    width: 400px;
     display: block; /* Makes each image a block-level element */
     margin-bottom: 10px;
 }

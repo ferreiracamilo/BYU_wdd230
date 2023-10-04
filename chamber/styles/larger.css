@@ -129,4 +129,8 @@
     #discover-images{
         grid-column: 2;
     }
+
+    #discover-images img{
+        width: 500px;
+    }
 }
