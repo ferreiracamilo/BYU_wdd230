@@ -20,8 +20,7 @@ function fetchWeather() {
               const city = geocodeData.address.city || geocodeData.address.town || geocodeData.address.village;
   
               // Use the city to fetch weather data from RapidAPI
-              // const apiKey = '56292c3d81msha217e7bc117cbd1p1b9f40jsnf3ed10f61cf3'; // Replace with your RapidAPI key
-              const apiKey = window._env_.RAPIDAPI_WEATHER_API_KEY;
+              const apiKey = '56292c3d81msha217e7bc117cbd1p1b9f40jsnf3ed10f61cf3'; // Replace with your RapidAPI key
               const apiUrl = `https://open-weather13.p.rapidapi.com/city/${city}`;
               const options = {
                 method: 'GET',
