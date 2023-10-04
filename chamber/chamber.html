@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CENTROCHAMBER | Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="WDD 230 - Web Frontend Development | Camilo Ferreira | Course Assignment Portal">
+        <meta name="author" content="Camilo Ferreira">
+        <meta property="og:title" content="WDD230 Web Project - Chamber Centro">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://i.imgur.com/vQkaKfQ.png">
+        <meta property="og:url" content="https://ferreiracamilo.github.io/wdd230/chamber/index.html">
+        <link rel="icon" type="image/x-icon" href="logo-color-ico.ico">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="container-darkmode-toggle">
+                <label class="switch" title="Dark Mode Toggle">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <img src="images/logo/webp/logo-no-background-webp.webp" alt="">
+            <h1>CentroChamber</h1>
+        </header>
+
+        <nav id="navbar-container">
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>                
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+
+        </main>
+
+        <footer>
+            <section id="copyright">
+                <p>CentroChamber © 2023 | Camilo Ferreira | Montevideo, Uruguay</p>
+            </section>
+            <section id="internal-links">
+                <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="https://www.instagram.com/unioncomerciantes/?hl=es">Union de comerciantes del uruguay</a></li>
+                <li><a href="https://www.cncs.com.uy/">Camara de comercio</a></li>
+            </section>
+            <section id="social-media-links">
+                <a href="https://i.imgur.com/lK91ddb.png" target="_blank">
+                    <img src="images/socialmedia/facebook-webp.webp" alt="facebook icon">
+                </a>
+                <a href="https://i.imgur.com/b3PzKzi.png" target="_blank">
+                    <img src="images/socialmedia/instagram-webp.webp" alt="instagram icon">
+                </a>
+                <a href="https://i.imgur.com/uvcQHjj.png" target="_blank">
+                    <img src="images/socialmedia/twitter-webp.webp" alt="twitter icon">
+                </a>
+                <a href="https://i.imgur.com/LEyHSJe.png" target="_blank">
+                    <img src="images/socialmedia/youtube-webp.webp" alt="youtube icon">
+                </a>
+            </section>
+            <section id="weather-component">
+                <h5>☼ Weather Component ☼</h5>
+                <ul id="weatherList"></ul>
+            </section>
+        </footer>
+
+        <script src="scripts/hamburgerMenu.js"></script>
+        <script src="scripts/darkMode.js"></script>
+        <script src="scripts/weather.js"></script>
+    </body>
+</html>

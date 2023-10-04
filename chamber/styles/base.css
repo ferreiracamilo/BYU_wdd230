@@ -376,6 +376,18 @@ footer section{
     width: 40px;
 }
 
+#weather-component{
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#weatherList li{
+    font-size: 0.7em;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
 /************************************************************
 *
 *               NEWSLETTER CALL TO ACTION
