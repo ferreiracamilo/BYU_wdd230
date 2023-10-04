@@ -28,7 +28,16 @@ function fetchWeather() {
               // Use the city to fetch weather data from RapidAPI
               // Get the current URL
               const currentURL = window.location.href;
-              const apiKey = getQueryParam(currentURL, 'api_key');
+              const apiKey = getQueryParam(currentURL, 'weather_api_key');
+              // Check if apiKey is not null or empty before using it
+                if (apiKey) {
+                    // Use apiKey in your API request or for other purposes
+                    console.log('API Key:', apiKey);
+                } else {
+                    console.error('API Key not found in the URL');
+                }
+
+
               const apiUrl = `https://open-weather13.p.rapidapi.com/city/${city}`;
               const options = {
                 method: 'GET',
