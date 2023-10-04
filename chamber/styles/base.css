@@ -530,5 +530,8 @@ footer section{
     display: block; /* Makes each image a block-level element */
     margin-bottom: 10px;
     background-color: var(--primary-color);
+    border-style: double;
+    padding:6px 10px;
+    color: white;
 }
 
