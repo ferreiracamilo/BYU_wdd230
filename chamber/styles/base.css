@@ -530,6 +530,11 @@ footer section{
     color: white;
 }
 
+#discover-images figcaption{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 /************************************************************
 *
 *               MODAL > LAST VISIT COUNTER MESSAGE
