@@ -521,11 +521,6 @@ footer section{
     margin-bottom: 10px;
 }
 
-#discover-images img:hover{
-    box-shadow: 0 0 50px #333;
-    border-radius: 150px 15px;
-}
-
 #discover-sidebar article{
     display: block; /* Makes each image a block-level element */
     margin-bottom: 10px;

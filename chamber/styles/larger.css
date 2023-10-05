@@ -134,4 +134,9 @@
     #discover-images img{
         width: 700px;
     }
+
+    #discover-images img:hover{
+        box-shadow: 0 0 50px #333;
+        border-radius: 150px 15px;
+    }
 }
