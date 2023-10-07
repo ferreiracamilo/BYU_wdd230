@@ -34,31 +34,47 @@
             <form action="get" action="thanks.html">
                 <fieldset>
                 <legend>Applicant Information</legend>
-                    <label for="">First Name*: <input type="text" name="fname" required></label>
-                    <label for="">Last Name*: <input type="text" name="lname" required></label>
-                    <label for="">Phone <input type="tel" name="phone" placeholder="12313213"></label>
-                    <label for="">Email*: <input type="email" name="email" placeholder="someone@mail.com" required></label>
-                    <label for="">Website: <input type="url" name="url" placeholder="http://"></label>
+                    <label for="" class="top">First Name*: <input type="text" name="fname" required></label>
+                    <label for="" class="top">Last Name*: <input type="text" name="lname" required></label>
+                    <label for="" class="top">Phone <input type="tel" name="phone" placeholder="12313213"></label>
+                    <label for="" class="top">Email*: <input type="email" name="email" placeholder="someone@mail.com" required></label>
+                    <label for="" class="top">Website: <input type="url" name="url" placeholder="http://"></label>
                 </fieldset>
 
                 <fieldset>
                 <legend>Course Information</legend>
                     <div>Audience</div>
-                    <label for=""><input type="radio" name="audience" value="beginner"> Beginner</label>
-                    <label for=""><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-                    <label for=""><input type="radio" name="audience" value="advanced"> Advanced</label>
+                    <label for="" class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
+                    <label for="" class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                    <label for="" class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
 
                     <div>Software Needed</div>
-                    <label for=""><input type="checkbox" name="editing" value="yes"> Photo</label>
-                    <label for=""><input type="checkbox" name="code" value="yes"> Coding</label>
-                    <label for=""><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-                    <label for=""><input type="checkbox" name="client" value="yes"> FTP Client</label>        
+                    <label for="" class="sbs"><input type="checkbox" name="editing" value="yes"> Photo</label>
+                    <label for="" class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
+                    <label for="" class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+                    <label for="" class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>        
                 </fieldset>
 
                 <fieldset>
                 <legend>Funding</legend>
-                    <label for="">Anticipated Completion Date <input type="date"></label>
+                    <label for="" class="top">Anticipated Completion Date <input type="date"></label>
+                    <label for="" class="top">Course subject
+                        <select name="subject" id="">
+                            <option value="">Please Select</option> <!-- default option by void value -->
+                            <option value="software">Software Development</option>
+                            <option value="creative">Creative Professional</option>
+                            <option value="info">Information Technology</option>
+                            <option value="data">Data Professional</option>
+                            <option value="construction">Construction</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="business">Business Professional</option>
+                            <option value="security">Cyber Security</option>
+                        </select>
+                    </label>
+                    <label for="" class="top">How Many Authors <input type="number" name="authors"></label>
                 </fieldset>
+
+                <input type="submit" value="Propose My Course" class="submitBtn">
             </form>
     </main>
 
