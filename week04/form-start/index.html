@@ -31,7 +31,35 @@
 
     <main>
         <h1>Course Proposal Application</h1>
+            <form action="get" action="thanks.html">
+                <fieldset>
+                <legend>Applicant Information</legend>
+                    <label for="">First Name*: <input type="text" name="fname" required></label>
+                    <label for="">Last Name*: <input type="text" name="lname" required></label>
+                    <label for="">Phone <input type="tel" name="phone" placeholder="12313213"></label>
+                    <label for="">Email*: <input type="email" name="email" placeholder="someone@mail.com" required></label>
+                    <label for="">Website: <input type="url" name="url" placeholder="http://"></label>
+                </fieldset>
 
+                <fieldset>
+                <legend>Course Information</legend>
+                    <div>Audience</div>
+                    <label for=""><input type="radio" name="audience" value="beginner"> Beginner</label>
+                    <label for=""><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                    <label for=""><input type="radio" name="audience" value="advanced"> Advanced</label>
+
+                    <div>Software Needed</div>
+                    <label for=""><input type="checkbox" name="editing" value="yes"> Photo</label>
+                    <label for=""><input type="checkbox" name="code" value="yes"> Coding</label>
+                    <label for=""><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+                    <label for=""><input type="checkbox" name="client" value="yes"> FTP Client</label>        
+                </fieldset>
+
+                <fieldset>
+                <legend>Funding</legend>
+                    <label for="">Anticipated Completion Date <input type="date"></label>
+                </fieldset>
+            </form>
     </main>
 
 
