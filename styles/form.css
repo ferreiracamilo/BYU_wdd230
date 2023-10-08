@@ -72,8 +72,7 @@ form label.top input:required:valid{
 
 /* ---- RANGE METER ---- */
 
-#rangeMeter input,
-output {
+#rangeMeter input, output {
   vertical-align: middle;
   color: blue;
 }
