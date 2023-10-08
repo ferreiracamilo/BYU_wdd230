@@ -48,17 +48,13 @@
                 <label class="top">Business' name: <input type="text" id="bname" name="bname" required></label>
                 <label><!-- membership-radiobutton --></label>
                 <div>Membership Level</div>
-                <label for="" class="sbs"><input type="radio" name="membership" value="nonprofit" checked="checked"> Nonprofit Membership</label> <!-- Enforce one radio button to be checked as default -->
-                <label for="" class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                <label for="" class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                <label for="" class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-                <label>Business' descritpion:
-                    <textarea id="description" name="description" rows="4" cols="50">
-                        At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
-                    </textarea>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit" checked="checked"> Nonprofit Membership</label> <!-- Enforce one radio button to be checked as default -->
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                <label>Business' descritpion:<textarea id="description" name="description" rows="4" cols="50">Explain what customers can expect when they choose your business..</textarea>
                 </label>
-                
-                <label><!-- timestampt hidden --></label>
+                <input type="hidden" name="timestamp" id="timestampField" value="">
                 <input type="submit" value="Join the chamber" class="submitBtn">
             </form>
         </main>
@@ -98,5 +94,6 @@
         <script src="scripts/darkMode.js"></script>
         <script src="scripts/weather.js"></script>
         <script src="scripts/getDatesFooter.js"></script>
+        <script src="scripts/joinForm.js"></script>
     </body>
 </html>
