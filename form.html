@@ -44,11 +44,9 @@
                 <label class="sbs">Email: <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
     
                 <label id="rangeMeter" class="sbs">
-                    <div>
-                        Page Rating
-                        <input type="range" id="rangeInput" name="rangeInput" min="1" max="10" value="1" step="1" data-show-value="true" oninput="updateTextInput(this.value);">
-                        <output name="amount" id="amount" for="rangeInput">1</output>
-                    </div>
+                    Page Rating
+                    <input type="range" id="rangeInput" name="rangeInput" min="1" max="10" value="1" step="1" data-show-value="true" oninput="updateTextInput(this.value);">
+                    <output name="amount" id="amount" for="rangeInput">1</output>
                 </label>    
                 <input type="submit" value="Propose My Course" class="submitBtn">
             </form>
