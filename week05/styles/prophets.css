@@ -1,0 +1,18 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 0.5em;
+}
+  
+section {
+    padding: 1rem;
+    background-color: rgb(151, 157, 190);
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section img{
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
