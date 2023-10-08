@@ -577,7 +577,7 @@ footer section{
 #thankyou img{
     width: 20%;
     background-color: #759ae9;
-    background-image: -webkit-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
+    background-image: linear-gradient(to top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
     background-image: -moz-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
     background-image: -ms-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
     background-image: -o-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
