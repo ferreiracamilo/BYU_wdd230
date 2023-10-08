@@ -658,3 +658,27 @@ textarea#description{
     color: var(--accent1-color);
     font-weight: lighter;
 }
+
+/* Style for the form container */
+.form-container {
+    display: flex;
+}
+
+/* Style for the form on the left */
+.form {
+    flex: 1;
+}
+
+/* Style for the dynamic text on the right */
+.dynamic-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.dynamic-text h2{
+    text-align: center;
+}
+
+.dynamic-text li{
+    font-size: 1rem;
+}
