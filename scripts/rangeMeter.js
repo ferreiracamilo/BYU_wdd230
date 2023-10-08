@@ -1,10 +1,6 @@
-const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("r");
+updateTextInput('0');
 
-// RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
-
-function displayRatingValue() {
-    rangevalue.innerHTML = range.value;
+function updateTextInput(val) {
+  document.getElementById('amount').value = val; //update current slider value
+  // do other action here
 }

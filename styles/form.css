@@ -17,35 +17,14 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-/* ---- RANGE METER ---- */
-
-#r {
-	width: 210px;
-	margin-bottom: 0;
-}
-
-#rangevalue {
-	font-size: 1.2rem;
-	color: navy;
-    display: inline;
-}
-
-#rangevalues {
-	display: flex;
-	margin: 0 0 0 25px;
-	width: 200px;
-}
-
-#rangevalues option {
-	flex: 1 1 auto;
-}
-
-input[type=range] {
-	margin: 1rem;
-	padding: 0.5em;
-}
-
 /*----------- FORM --------------*/
+
+main form{
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
 
 form label.top{
     display: block;
@@ -91,5 +70,14 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
+/* ---- RANGE METER ---- */
 
+#rangeMeter input,
+output {
+  vertical-align: middle;
+  color: blue;
+}
 
+input[type=range] {
+	padding: 0.5em;
+}
