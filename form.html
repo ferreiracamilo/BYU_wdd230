@@ -4,14 +4,35 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="styles/form.css" rel="stylesheet">
     </head>
     <body>
         <form action="" action="get">
             <label for="">Username*: <input type="text" name="uname" id="uname" required></label>
             <label for="">Password*: <input type="password" id="password" name="password" required></label>
             <label for="">Confirm Password*: <input type="password" id="confirm_password" name="confirm_password" required></label>
+            <label for=""><input type="email" name="email" id="email" title="Please enter a valid email address" required></label>
+
+            <label for="r">INPUT: range, min, max, datalist, required
+                <div id="rangevalue">1</div>
+                <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </label>
+            
+
         </form>
 
     </body>
+    <script src="scripts/rangeMeter.js"></script>
 </html>
