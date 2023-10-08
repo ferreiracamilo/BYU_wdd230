@@ -581,7 +581,7 @@ footer section{
     background-image: -moz-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
     background-image: -ms-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
     background-image: -o-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
-    background-image: linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
+    background-image: linear-gradient(to top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
     border-top: 1px solid #1f58cc;
     border-right: 1px solid #1b4db3;
     border-bottom: 1px solid #174299;
