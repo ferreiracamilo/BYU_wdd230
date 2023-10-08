@@ -39,22 +39,28 @@
         </nav>
 
         <main>
-            <form method="get" action="thankyou.html">
-                <label class="top">First Name*: <input type="text" id="name" name="fname" required></label>
-                <label class="top">Last Name*: <input type="text" id="lname" name="lname" required></label>
-                <label class="top">Title/Position: <input type="text" id="position" name="position" pattern="^[a-zA-Z\s-]{7,}$"></label>
-                <label class="top">Email*: <input type="email" id="email" name="email" placeholder="someone@mail.com" required></label>
-                <label class="top">Mobile Phone Number*: <input type="tel" id="phone" name="phone" placeholder="12313213" required></label>
-                <label class="top">Business' name: <input type="text" id="bname" name="bname" required></label>
-                <div>Membership Level</div>
-                <label class="sbs"><input type="radio" name="membership" value="nonprofit" checked="checked"> Nonprofit Membership</label> <!-- Enforce one radio button to be checked as default -->
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-                <label class="top">Business' description:<textarea id="description" name="description" rows="4" cols="50">Explain what customers can expect when they choose your business..</textarea></label>
-                <input type="hidden" name="timestamp" id="timestampField" value="">
-                <input type="submit" value="Join the chamber" class="submitBtn">
-            </form>
+            <div class="form-container">
+                <form method="get" action="thankyou.html" class="form">
+                    <label class="top">First Name*: <input type="text" id="name" name="fname" required></label>
+                    <label class="top">Last Name*: <input type="text" id="lname" name="lname" required></label>
+                    <label class="top">Title/Position: <input type="text" id="position" name="position" pattern="^[a-zA-Z\s-]{7,}$"></label>
+                    <label class="top">Email*: <input type="email" id="email" name="email" placeholder="someone@mail.com" required></label>
+                    <label class="top">Mobile Phone Number*: <input type="tel" id="phone" name="phone" placeholder="12313213" required></label>
+                    <label class="top">Business' name: <input type="text" id="bname" name="bname" required></label>
+                    <div>Membership Level</div>
+                    <label class="sbs"><input type="radio" name="membership" value="nonprofit" id="nonprofit" checked="checked"> Nonprofit Membership</label> <!-- Enforce one radio button to be checked as default -->
+                    <label class="sbs"><input type="radio" name="membership" value="bronze" id="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver" id="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold" id="gold"> Gold Membership</label>
+                    <label class="top">Business' description:<textarea id="description" name="description" rows="4" cols="50">Explain what customers can expect when they choose your business..</textarea></label>
+                    <input type="hidden" name="timestamp" id="timestampField" value="">
+                    <input type="submit" value="Join the chamber" class="submitBtn">
+                </form>
+    
+                <div class="dynamic-text" id="dynamicText">
+                    <!-- Dynamic text content will be displayed here -->
+                </div>
+            </div>
         </main>
 
         <footer>
