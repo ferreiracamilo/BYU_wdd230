@@ -562,3 +562,18 @@ footer section{
 #closeLastVisitModalBtn {
     margin-top: 10px;
 }
+
+
+/************************************************************
+*
+*               THANKYOU PAGE
+*
+************************************************************/
+
+#thankyou{
+    text-align: center;
+}
+
+#thankyou img{
+    width: 30%;
+}
