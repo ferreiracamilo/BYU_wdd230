@@ -26,7 +26,7 @@ function displayResults(data){
     img.setAttribute("src", iconsrc);
     img.setAttribute("alt", desc);
 
-    span.textContent = `${data.main.temp} ° F - ${desc}`;
+    span.textContent = `${data.main.temp}°F - ${desc}`;
 
     weatherComponent.append(img);
     weatherComponent.append(span);
