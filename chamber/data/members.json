@@ -6,7 +6,7 @@
         "website": "https://uiuc.edu",
         "icon": "https://i.ibb.co/h8Nm2QG/jazzy.png",
         "membership": "Silver",
-        "opening date": "3/2/2015"
+        "opening": "3/2/2015"
       },
       {
         "name": "Browsetype",
@@ -14,7 +14,7 @@
         "website": "http://elegantthemes.com",
         "icon": "https://i.ibb.co/cFh6rC2/Browsetype.png",
         "membership": "Bronze",
-        "opening date": "2/18/2014"
+        "opening": "2/18/2014"
       },
       {
         "name": "Vinte",
@@ -22,7 +22,7 @@
         "website": "https://cbsnews.com",
         "icon": "https://i.ibb.co/djzn2hN/Vinte.png",
         "membership": "Nonprofit",
-        "opening date": "5/24/2006"
+        "opening": "5/24/2006"
       },
       {
         "name": "Yakijo",
@@ -30,7 +30,7 @@
         "website": "http://kickstarter.com",
         "icon": "https://i.ibb.co/72Q59Z9/Yakijo.png",
         "membership": "Gold",
-        "opening date": "2/13/2023"
+        "opening": "2/13/2023"
       },
       {
         "name": "Pixoboo",
@@ -38,7 +38,7 @@
         "website": "https://tinypic.com",
         "icon": "https://i.ibb.co/dPfbYcT/Pixoboo.png",
         "membership": "Nonprofit",
-        "opening date": "3/5/2020"
+        "opening": "3/5/2020"
       },
       {
         "name": "Twitterlist",
@@ -46,7 +46,7 @@
         "website": "http://wiley.com",
         "icon": "https://i.ibb.co/F6v4QXK/Twitterlist.png",
         "membership": "Gold",
-        "opening date": "1/26/2009"
+        "opening": "1/26/2009"
       },
       {
         "name": "Fivespan",
@@ -54,7 +54,7 @@
         "website": "http://baidu.com",
         "icon": "https://i.ibb.co/X4hF0CW/Fivespan.png",
         "membership": "Silver",
-        "opening date": "11/8/2016"
+        "opening": "11/8/2016"
       },
       {
         "name": "Meezzy",
@@ -62,7 +62,7 @@
         "website": "http://exblog.jp",
         "icon": "https://i.ibb.co/GW5hhPH/Meezzy.png",
         "membership": "Silver",
-        "opening date": "7/12/2013"
+        "opening": "7/12/2013"
       },
       {
         "name": "Yakidoo",
@@ -70,7 +70,7 @@
         "website": "https://myspace.com",
         "icon": "https://i.ibb.co/RYRt930/Yakidoo.png",
         "membership": "Bronze",
-        "opening date": "5/2/2011"
+        "opening": "5/2/2011"
       },
       {
         "name": "Skipstorm",
@@ -78,7 +78,7 @@
         "website": "http://xrea.com",
         "icon": "https://i.ibb.co/JzhTjtn/Skipstorm.png",
         "membership": "Bronze",
-        "opening date": "11/10/2011"
+        "opening": "11/10/2011"
       },
       {
         "name": "Edgepulse",
@@ -86,7 +86,7 @@
         "website": "https://shinystat.com",
         "icon": "https://i.ibb.co/XSvSf8p/Edgepulse.png",
         "membership": "Gold",
-        "opening date": "9/8/2007"
+        "opening": "9/8/2007"
       },
       {
         "name": "Oyoba",
@@ -94,7 +94,7 @@
         "website": "https://wikipedia.org",
         "icon": "https://i.ibb.co/0ZfMwJh/Oyoba.png",
         "membership": "Gold",
-        "opening date": "6/19/2020"
+        "opening": "6/19/2020"
       },
       {
         "name": "Voomm",
@@ -102,7 +102,7 @@
         "website": "https://lycos.com",
         "icon": "https://i.ibb.co/0QfYW4c/Voomm.png",
         "membership": "Bronze",
-        "opening date": "9/17/2002"
+        "opening": "9/17/2002"
       },
       {
         "name": "Vinder",
@@ -110,7 +110,7 @@
         "website": "https://issuu.com",
         "icon": "https://i.ibb.co/SNJbRmd/Vinder.png",
         "membership": "Gold",
-        "opening date": "4/27/2014"
+        "opening": "4/27/2014"
       },
       {
         "name": "Flipbug",
@@ -118,7 +118,7 @@
         "website": "https://homestead.com",
         "icon": "https://i.ibb.co/B6p2Mry/Flipbug.png",
         "membership": "Nonprofit",
-        "opening date": "7/24/2006"
+        "opening": "7/24/2006"
       }
     ]
 }
