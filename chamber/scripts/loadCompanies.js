@@ -1,49 +1,50 @@
 const url = "https://ferreiracamilo.github.io/wdd230/chamber/data/members.json";
 
-const members = document.querySelector('.grid');
+const membersZone = document.querySelector('.grid');
 
 async function getMembersData(){
     const response = await fetch(url);
     const data = await response.json();
-    //console.table(data.prophets); // temporary testing of data retreival
-    displayProphets(data.prophets);
+    // console.table(data.members); // temporary testing of data retreival
+    displayMembers(data.members);
 }
 
-const displayProphets = (prophets) => {
-    prophets.forEach((prophet) => {
+const displayMembers = (members) => {
+    members.forEach((member) => {
         const card = document.createElement("section");
-        const fullName = document.createElement("h2");
-        const dateBirth = document.createElement("p");
-        const placeBirth = document.createElement("p");
-        const portrait = document.createElement("img");
+        const icon = document.createElement("img");
+        const name = document.createElement("h3");
+        const membership = document.createElement("p");
+        const website = document.createElement("p");
+        const address = document.createElement("p");
+        const opening = document.createElement("p");
 
-        //Save the first name and last name together to reduce redudant code
-        const fullNameStr = prophet.name+ " " + prophet.lastname;
+        // Build the image icon by setting all the relevant attributes
+        icon.setAttribute('src', member.icon);
+        icon.setAttribute('alt', "Icon of " + member.name);
+        icon.setAttribute('loading', 'lazy');
 
         // Set teh value of full name h2
-        fullName.textContent = fullNameStr;
+        name.textContent = member.name;
 
-        //Set date of birth
-        dateBirth.textContent = "Date of birth: " + prophet.birthdate;
+        membership.textContent = "Membership: " + member.membership;
 
-        //Set place of birth
-        placeBirth.textContent = "Place of birth: " + prophet.birthplace;
+        website.textContent = "Website: " + member.website;
 
-        // Build the image portrait by setting all the relevant attributes
-        portrait.setAttribute('src', prophet.imageurl);
-        portrait.setAttribute('alt', "Portrait of " + fullNameStr);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
+        address.textContent = "Address: " + member.address;
+
+        opening.textContent = "Opening date: " + member.opening;
 
         // Append the section(card) with the created elements
-        card.appendChild(fullName);
-        card.appendChild(dateBirth);
-        card.appendChild(placeBirth);
-        card.appendChild(portrait);
-
-        cards.appendChild(card);
+        card.appendChild(icon);
+        card.appendChild(name);
+        card.appendChild(membership);
+        card.appendChild(website);
+        card.appendChild(address);
+        card.appendChild(opening);
+        
+        membersZone.appendChild(card);
     });
 }
 
-getProphetData();
+getMembersData();
