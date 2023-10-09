@@ -761,6 +761,11 @@ textarea#description{
 	display: none; /* smaller viewports only */
 }
 
+/* THE SPAN CLASS ENFORCED THAT WORKS TO INDICATE WHAT THE VALUE STANDS FOR IS BEING REMOVED FROM VIEW IN TABLE/LIST */
+.list .remove-span-list{
+    display: none;
+}
+
 .list section:nth-child(even) {
 	background-color: #bed;
 }
