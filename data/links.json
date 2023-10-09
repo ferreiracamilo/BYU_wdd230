@@ -1,0 +1,93 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week01/holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"week01/media-query.html",
+            "title":"mQueries"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"week02/design.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"week02/styles/design.css",
+            "title":"mQueries"
+          },
+          {
+            "url":"week02/bom.html",
+            "title":"jspen"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"#",
+            "title":"Layout"
+          },
+          {
+            "url":"#",
+            "title":"Media Query"
+          },
+          {
+            "url":"#",
+            "title":"JSPen"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://codepen.io/Camilo-Ferreira/pen/oNJaQEK",
+            "title":"CSS Pseudo-Classes Codepen"
+          },
+          {
+            "url":"week04/images/exercise4.PNG",
+            "title":"CSS Combinators W3School"
+          },
+          {
+            "url":"week04/tablebuild.html",
+            "title":"HTML Tables for Data Presentation"
+          },
+          {
+            "url":"week04/form-start/index.html",
+            "title":"HTML Forms"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/Camilo-Ferreira/pen/ZEVVxVv",
+            "title":"CSS Pseudo-elements"
+          },
+          {
+            "url":"week05/new-ward-members.json",
+            "title":"New Ward Members json file"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"The Fetch API"
+          },
+          {
+            "url":"week05/weather.html",
+            "title":"Consuming a Third-Party API Service"
+          }
+        ]
+      }
+    ]
+}
