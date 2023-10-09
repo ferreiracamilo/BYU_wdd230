@@ -713,6 +713,7 @@ textarea#description{
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
+    margin-bottom: 20px;
 }
 
 .grid section {
@@ -726,10 +727,6 @@ textarea#description{
 
 .grid section > * {
 	margin: 0.1rem;
-}
-
-.grid h3 {
-	font-family: "Caveat", cursive;
 }
 
 .list {
@@ -754,7 +751,6 @@ textarea#description{
 
 .list section h3 {
 	font-size: 1rem;
-	font-family: Roboto, Helvetica, sans-serif;
 }
 
 .list section:nth-child(even) {
@@ -771,7 +767,6 @@ textarea#description{
 }
 
 .grid section a {
-	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.85rem;
 	color: navy;
 	letter-spacing: 1.1pt;
