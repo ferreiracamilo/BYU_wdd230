@@ -736,17 +736,29 @@ textarea#description{
 
 .list section {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
 }
 
-.list section img {
-	display: none; /* smaller viewports only */
+.list section *{
+    /* Force the h3 to look like as any other column value font size */
+    font-size: 1rem;
 }
 
-.list section h3 {
-	font-size: 1rem;
+/* TURN DUMMY HEADER FROM JS INTO A FAKE HEADER */
+.list .dummy-header{
+    background-color: grey;
+}
+
+.list .dummy-header *{
+    color: white;
+    font-weight: bold;
+}
+/* TURN DUMMY HEADER FROM JS INTO A FAKE HEADER */
+
+.list section img {
+	display: none; /* smaller viewports only */
 }
 
 .list section:nth-child(even) {
@@ -771,4 +783,9 @@ textarea#description{
 .grid section img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+.grid section.dummy-header{
+    /* Given a dummy card which works as a list header will not be displayed in grid view */
+    display: none;
 }
