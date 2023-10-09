@@ -10,6 +10,31 @@ async function getMembersData(){
 }
 
 const displayMembers = (members) => {
+
+    //Create a dummy card to show only in list mode to work as a header
+    const card = document.createElement("section");
+    const name = document.createElement("h3");
+    const membership = document.createElement("p");
+    const website = document.createElement("p");
+    const address = document.createElement("p");
+    const opening = document.createElement("p");
+
+    name.textContent = "Org Name";
+    membership.textContent = "Membership";
+    website.textContent = "Website";
+    address.textContent = "Address";
+    opening.textContent = "Opening date";
+
+    card.appendChild(name);
+    card.appendChild(membership);
+    card.appendChild(website);
+    card.appendChild(address);
+    card.appendChild(opening);
+
+    card.setAttribute("class","dummy-header");
+    membersZone.appendChild(card);
+    //Create a dummy card to show only in list mode to work as a header
+
     members.forEach((member) => {
         const card = document.createElement("section");
         const icon = document.createElement("img");
