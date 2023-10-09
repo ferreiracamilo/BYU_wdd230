@@ -31,7 +31,6 @@ function displayResults(data){
 
     weatherComponent.append(img);
     weatherComponent.append(span);
-    
 }
 
 apiFetch();
