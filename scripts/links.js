@@ -23,6 +23,7 @@ function displayLinks(weeks){
             }else{
                 a.textContent = ` ${titleLink}`;
             }
+            a.setAttribute("target","_blank");
             li.append(a);
         }
         learning_activities.appendChild(li);
