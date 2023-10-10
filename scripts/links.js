@@ -5,16 +5,16 @@ async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     console.log(data);
-    displayLinks(data);
+    displayLinks(data.weeks);
 }
 
 function displayLinks(weeks){
-    const learning_activities = document.querySelector('#learning_activities');
+    const learning_activities = document.querySelector('#learning-activities');
+    learning_activities.textContent = '';
     // Week 01: Layout | Media Query | JSPen
-    weeks.forEach((week) => {
+    weeks.forEach((weekObj) => {
         const li = document.createElement("li");
         console.log("Este es mi week de obj " + weekObj.week);
-        // li.textContent = weekObj.week + ": ";
         li.textContent = `${weekObj.week}:`;
         for (let i = 0; i < weekObj.links.length; i++) {
             let a = document.createElement("a");
