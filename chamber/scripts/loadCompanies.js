@@ -27,9 +27,9 @@ const displayMembers = (members) => {
 
     card.appendChild(name);
     card.appendChild(membership);
-    card.appendChild(website);
     card.appendChild(address);
     card.appendChild(opening);
+    card.appendChild(website);
 
     card.setAttribute("class","dummy-header");
     membersZone.appendChild(card);
@@ -58,15 +58,6 @@ const displayMembers = (members) => {
         membership.append(membership_span);
         membership.append(membership_span_text);
 
-        const website = document.createElement("p");
-        const website_span = document.createElement("span");
-        website_span.setAttribute("class","remove-span-list");
-        website_span.textContent = "Website: ";
-        const website_span_text = document.createElement("span");
-        website_span_text.textContent = member.website;
-        website.append(website_span);
-        website.append(website_span_text);
-
         const address = document.createElement("p");
         const address_span = document.createElement("span");
         address_span.setAttribute("class","remove-span-list");
@@ -85,13 +76,26 @@ const displayMembers = (members) => {
         opening.append(opening_span);
         opening.append(opening_span_text)
 
+        const website = document.createElement("p");
+        const website_span = document.createElement("span");
+        website_span.setAttribute("class","remove-span-list");
+        website_span.textContent = "Website: ";
+        const website_span_text = document.createElement("span");
+        const a_website = document.createElement("a");
+        a_website.setAttribute("href",member.website);
+        a_website.setAttribute("target","_blank");
+        a_website.textContent=member.website;
+        website_span_text.appendChild(a_website);
+        website.append(website_span);
+        website.append(website_span_text);
+
         // Append the section(card) with the created elements
         card.appendChild(icon);
         card.appendChild(name);
         card.appendChild(membership);
-        card.appendChild(website);
         card.appendChild(address);
         card.appendChild(opening);
+        card.appendChild(website);
         
         membersZone.appendChild(card);
     });
