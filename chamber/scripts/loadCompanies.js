@@ -63,7 +63,11 @@ const displayMembers = (members) => {
         website_span.setAttribute("class","remove-span-list");
         website_span.textContent = "Website: ";
         const website_span_text = document.createElement("span");
-        website_span_text.textContent = member.website;
+        const a_website = document.createElement("a");
+        a_website.setAttribute("href",member.website);
+        a_website.setAttribute("target","_blank");
+        a_website.textContent=member.website;
+        website_span_text.appendChild(a_website);
         website.append(website_span);
         website.append(website_span_text);
 
