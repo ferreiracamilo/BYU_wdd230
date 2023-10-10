@@ -72,7 +72,7 @@ const displayMembers = (members) => {
         address_span.setAttribute("class","remove-span-list");
         address_span.textContent = "Address: ";
         const address_span_text = document.createElement("span");
-        address_span_text.textContent = "Address: " + member.address;
+        address_span_text.textContent = member.address;
         address.append(address_span);
         address.append(address_span_text);
 
