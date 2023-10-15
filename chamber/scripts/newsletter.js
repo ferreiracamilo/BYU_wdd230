@@ -10,6 +10,7 @@ window.addEventListener('load', () => {
 
 closePopupButton.addEventListener('click', () => {
     popupOverlay.style.display = 'none';
+    shouldShowBanner(); //call homebanner if dayweek is the expected one
 });
 
 // Prevent the form from submitting for this example
