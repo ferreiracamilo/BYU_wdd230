@@ -19,16 +19,16 @@ const displaySpotlights = (spotlights) => {
         }
     }
 
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 3; i++) {
         //Iterate 3 times setting i+1 for the id expected on css and i for calling a non repeated number result from previous while
         const article = document.createElement("article");
-        article.setAttribute("id","spotlight"+i+1);
+        article.setAttribute("id","spotlight"+ (i + 1));
 
         const h3 = document.createElement("h3");
-        h3.textContent(spotlights[i].headerLine);
+        h3.textContent = spotlights[randomNumbers[i]].headerLine;
 
         const p = document.createElement("p");
-        p.textContent(spotlights[i].description);
+        p.textContent = spotlights[randomNumbers[i]].description;
 
         article.appendChild(h3);
         article.appendChild(p);
